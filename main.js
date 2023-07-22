@@ -1,6 +1,7 @@
 function getComputerChoice(){
   let rand = Math.floor(Math.random() * 3)
   let choices = ["Rock", "Paper", "Scissors"]
+  console.log(choices[rand])
   return choices[rand]
 }
 
