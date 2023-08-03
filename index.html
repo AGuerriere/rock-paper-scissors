@@ -3,11 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header><h1>ROCK, PAPER, SCISSORS</h1></header>
+  <main>
+    <div id="result">Make your choice carefully</div>
+    <div id="choices">
+      <div id="userChoice">
+        <div class="currentPick"><div id="userIcon">👸🏼</div></div>
+        <div id="userScore">Player: 0</div>
+      </div>
+      <div id="computerChoice">
+        <div class="currentPick"><div id="computerIcon">🤖</div></div>
+        <div id="computerScore">Computer: 0</div>
+      </div>
+    </div>
+    <button id="rock">🪨</button>
+    <button id="paper">📄</button>
+    <button id="scissors">✂️</button>
+  </main>
 
-  <script src="./main.js"
+  <script src="./main.js"></script>
 </body>
 </html>
