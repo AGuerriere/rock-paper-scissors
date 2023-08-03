@@ -6,6 +6,14 @@ body {
   margin: 0 auto;
   font-size: 24px;
   color:#ddd;
+  min-height: 700px;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 button {
@@ -13,7 +21,7 @@ button {
   width: 150px;
   font-size: 70px;
   background-color: transparent;
-  border: 2px dotted green;
+  border: 4px dashed rgb(128, 255, 0);;
   margin: 20px;
   border-radius: 5%;
 
@@ -69,6 +77,24 @@ button:active {
   background-color: rgba(160, 255, 185, 0.273) !important; 
 }
 
-#rock:hover {
+#rock:hover, #paper:hover, #scissors:hover {
   background-color: rgba(131, 188, 173, 0.273);
+}
+
+main {
+  min-height: 70vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  color: var(--primary-light);
+  font-size: 20px;
 }
