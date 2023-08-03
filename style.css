@@ -98,3 +98,9 @@ footer {
   color: var(--primary-light);
   font-size: 20px;
 }
+
+.weaponIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
